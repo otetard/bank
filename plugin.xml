@@ -20,6 +20,10 @@
 		<nom>declarer_tables_principales</nom>
 		<inclure>base/bank_transactions.php</inclure>
 	</pipeline>
+	<pipeline>
+		<nom>autoriser</nom>
+		<inclure>bank_autorisations.php</inclure>
+	</pipeline>
 
 	<pipeline><nom>bank_inserer_transaction</nom><action></action></pipeline>
 	<pipeline><nom>bank_facturer_reglement</nom><action></action></pipeline>
